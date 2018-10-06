@@ -1,4 +1,5 @@
 # AUCTION-SYSTEM
-COMPUTER SCIENCE 3RD SEMESTER AUCTION SYSTEM
 
 The aim of the project was to create a web service that links the SQL database to a number of remote clients. The web service was decided to be implemented using ASP.NET WebAPI 2 to create an easy to use modular RESTful (Representational state transfer) API. That allows for the flexibility to choose any type of HTTP client. The choice was made and it was decided to have a web and a desktop client. The web applica- tion – a full-stack SPA (Single-Page Application) JavaScript application using NodeJS for the backend and AngularJS the frontend logic. Bootstrap with Material theme was used for the UI framework. The template engine was Jade (Pug). Everything was automated using Grunt scripts and Yeoman was used for generating the initial seed. The desktop application – a UWP (Universal Windows Platform) application which needs minor changes in order to support all Microsoft platforms in the Universal device family (Windows, Win- dows Phone, Xbox, etc.).
+
+Two separate reports of the project can be found in a pdf format attached to this repository where a more in-depth look into the Programming aspect of the project as well as the System Development aspect is presented.
