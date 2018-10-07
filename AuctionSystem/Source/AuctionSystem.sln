@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25920.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A7596A17-8866-42C9-9803-399D54A56423}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{297472C6-9E7B-4379-BC06-78D0591690A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{3C5992D2-F0A7-43A9-A7EE-BC3EE11B90B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSystem.Data.Models", "Data\AuctionSystem.Data.Models\AuctionSystem.Data.Models.csproj", "{5DF25E2D-C92A-4583-B98B-9C1F56BADDFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSystem.Data", "Data\AuctionSystem.Data\AuctionSystem.Data.csproj", "{3FFC409B-1E52-490A-A2C2-01F95411EE1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8A4BE41-EEC5-4356-8B7D-51B3A4026D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSystem.Common", "AuctionSystem.Common\AuctionSystem.Common.csproj", "{901EB25F-7464-4650-A492-697E9D485283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSystem.Api", "Logic\AuctionSystem.Api\AuctionSystem.Api.csproj", "{C39D6092-7007-4876-ADF1-DE3115EC55F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F2E6C683-0F56-47AC-ADB4-2843EC23A4A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSystem.Services", "Services\AuctionSystem.Services\AuctionSystem.Services.csproj", "{AE7E34C8-96F1-4C7A-9BE0-46451EBCF9E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DF25E2D-C92A-4583-B98B-9C1F56BADDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF25E2D-C92A-4583-B98B-9C1F56BADDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF25E2D-C92A-4583-B98B-9C1F56BADDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF25E2D-C92A-4583-B98B-9C1F56BADDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFC409B-1E52-490A-A2C2-01F95411EE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFC409B-1E52-490A-A2C2-01F95411EE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFC409B-1E52-490A-A2C2-01F95411EE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFC409B-1E52-490A-A2C2-01F95411EE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901EB25F-7464-4650-A492-697E9D485283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901EB25F-7464-4650-A492-697E9D485283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901EB25F-7464-4650-A492-697E9D485283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901EB25F-7464-4650-A492-697E9D485283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39D6092-7007-4876-ADF1-DE3115EC55F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39D6092-7007-4876-ADF1-DE3115EC55F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39D6092-7007-4876-ADF1-DE3115EC55F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39D6092-7007-4876-ADF1-DE3115EC55F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7E34C8-96F1-4C7A-9BE0-46451EBCF9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7E34C8-96F1-4C7A-9BE0-46451EBCF9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7E34C8-96F1-4C7A-9BE0-46451EBCF9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7E34C8-96F1-4C7A-9BE0-46451EBCF9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DF25E2D-C92A-4583-B98B-9C1F56BADDFB} = {A7596A17-8866-42C9-9803-399D54A56423}
+		{3FFC409B-1E52-490A-A2C2-01F95411EE1D} = {A7596A17-8866-42C9-9803-399D54A56423}
+		{C39D6092-7007-4876-ADF1-DE3115EC55F1} = {297472C6-9E7B-4379-BC06-78D0591690A0}
+		{AE7E34C8-96F1-4C7A-9BE0-46451EBCF9E8} = {F2E6C683-0F56-47AC-ADB4-2843EC23A4A1}
+	EndGlobalSection
+EndGlobal
